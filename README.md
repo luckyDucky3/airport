@@ -16,7 +16,7 @@ https://docs.docker.com/desktop/setup/install/windows-install/
 ![image](https://github.com/user-attachments/assets/05585a58-ea21-437c-92f4-db451edd9a13)
 
 Нажать "+" далее ввести localhost, admin, 100506Ki, 3308, enter.
-Подключение должно пройти успешно. Если нет, то надо через wsl зайти в контейне командой:
+Подключение должно пройти успешно. Если нет, то надо через wsl зайти в контейнер командой:
 
 `docker exec -it mysql bash`
 
