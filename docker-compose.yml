@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  db:
+    container_name: mysql
+    image: mysql/mysql-server:8.0
+    restart: always
+    environment:
+      MYSQL_DATABASE: airport_db
+      MYSQL_USER: admin
+      MYSQL_ROOT_PASSWORD: 100506Ki
+    ports:
+      - "3308:3306"
