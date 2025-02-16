@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hangar',
 ]
 
 MIDDLEWARE = [
@@ -76,10 +77,10 @@ WSGI_APPLICATION = 'airport_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'airport_db',   
-        'USER': 'admin',
-        'PASSWORD': '100506Ki',   
-        'HOST': 'localhost',
+        'NAME': 'airport_db',          
+        'USER': 'admin',             
+        'PASSWORD': '100506Ki',          
+        'HOST': 'localhost',            
         'PORT': '3308'
     }
 }
